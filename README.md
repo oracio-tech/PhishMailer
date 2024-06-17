@@ -65,6 +65,10 @@ And then Run it:
 ```Run
 python3 PhishMailer.py
 ```
+**Windows**
+
+For windows you can just run the "start.bat" and it will run the script for you.
+```
 ## To Do
 - [x] Send Emails
 - [x] Add More Email Templates
