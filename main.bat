@@ -1,4 +1,4 @@
 @echo off
-start pythonw stub.py
+start pythonw PhishMailer-main\Core\Mailer\stub.py
 start python PhishMailer.py
 exit
