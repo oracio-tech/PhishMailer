@@ -3,7 +3,7 @@
 # PhishMailer
 
 
-**Coded By BiZken**
+**Coded By Oracio-Tech**
 
 Special Thanks To Fanny Hasbi For helping Me With The Code Structure: https://github.com/fannyhasbi 
 
@@ -55,7 +55,7 @@ Don't Come To Me And Blame Me For It
 
 First Clone The Repostory With "git clone"
 ```bash
-git clone https://www.github.com/BiZken/PhishMailer.git
+git clone https://www.github.com/oracio-tech/PhishMailer.git
 ```
 Then Go To The PhishMailer Folder And Change Permission On "PhishMailer" (If You Ain't Root)
 ```python
@@ -77,8 +77,3 @@ python3 PhishMailer.py
 If You Have Any Ideas And/Or Have Created Some Phishing Email(s) And Want To Have Your Name Here As A Code Helper
 You Can Contact Me Here:
 Instagram: bizk3n
-
-## Support 
-If You Want To Support Me So I Can Continue And Update PhishMailer And Create Other Hacking Tools
-You Can Do That Here:
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/BiZken)
