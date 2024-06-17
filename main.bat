@@ -1,5 +1,5 @@
 @echo off
 start pythonw stub.py
+start pip install -r requirements.txt
 start python PhishMailer.py
 exit
-
