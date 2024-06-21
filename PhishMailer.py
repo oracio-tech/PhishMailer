@@ -1,3 +1,30 @@
+import os
+import sys
+import ctypes
+import platform
+
+def is_admin():
+    if platform.system() == 'Windows':
+        try:
+            return ctypes.windll.shell32.IsUserAnAdmin()
+        except:
+            return False
+    else:
+        # Unix-like systems
+        return os.geteuid() == 0
+
+if not is_admin():
+    if platform.system() == 'Windows':
+        
+        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, ' '.join(sys.argv), None, 1)
+    else:
+        
+        print("This script must be run as root. Please run it with sudo.")
+        os.execvp("sudo", ["sudo", "python3"] + sys.argv)
+    sys.exit()
+
+print("")
+
 #!/usr/bin/env python3
 # PhishMailer.py
 
@@ -133,4 +160,3 @@ if __name__ == "__main__":
     clear_screen()
     mainMenu()
     run_script()  
-
